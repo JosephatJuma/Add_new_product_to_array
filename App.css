@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  max-width: 100%;
+  background-color: #f4f4f4;
+}
+.logo {
+  width: 40px;
+
+  /* color: black;
+  box-shadow: 9px 4px 10px 00px black;
+  background-color: white; */
+}
+.container {
+  background-color: red;
+  color: #f4f4f4;
+  max-width: 500px;
+  margin: 30px auto;
+  /* margin-left: 10px; */
+  overflow: auto;
+  min-height: 300px;
+  border: 2px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+  font-weight: normal;
+  box-shadow: 9px 4px 10px 00px black;
+}
+.add-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: red;
+  padding: 8px;
+  border-radius: 15px;
+}
+.add {
+  color: red;
+  background-color: white;
+  border: 0px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.items-container {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.on {
+  background-color: white;
+  border: white;
+  cursor: pointer;
+  font-family: "Poppins";
+  color: rgb(247, 36, 36);
+  font-size: 20px;
+  /* box-shadow: 2px 0.5px 01px 1.5px #000; */
+}
+.details {
+  background-color: white;
+  color: #000;
+  width: 120px;
+  border-radius: 100px;
+  padding: 10px;
+  align-content: center;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 10px 1px 10px 03px rgb(3, 10, 27);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+footer {
+  margin-top: 5000px;
+  text-align: center;
+  background-color: grey;
+}
